@@ -18,4 +18,4 @@ In each folder there is a main script that can be used to specify the parameters
 
 
 - **Data_Source_Integration**: Link both data sources and stores the filings of healthy companies, companies that ultimatly went bankrupt and the dates on which they filed for bankruptcy. (THIS STEP MIGHT TAKE A WHILE)
-- **BoW / Transformer (2 folders)**: Prepare the data for training the Bag-of-Words / Transformer models. This steps in these folders are split up in 1) preprocessing and 2) sampling (execute them in the order indicated by the name of the files).
+- **BoW / Transformer (2 folders)**: Prepare the data for training the Bag-of-Words / Transformer models. The steps in these folders are split up in 1) preprocessing and 2) sampling. Execute in the order indicated by the name of the files. NOTE: Some steps are memory intensive, if the execution of a script fails (e.g. 1_initial_processing.py), it is suggested to execute the script in blocks indicated by the dashes.
