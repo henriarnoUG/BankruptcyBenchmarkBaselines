@@ -8,5 +8,5 @@ The code will be released stepwise (estimated to be complete by end of August).
 ## USAGE
 
 ### Prerequisites
-- The LoPucki BRD case table
-- EDGAR-CORPUS
+- The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php)
+- EDGAR-CORPUS (https://arxiv.org/abs/2109.14394)
