@@ -5,10 +5,9 @@ from DSI import *
 # PARAMS
 # ______________________________________________________________________________________________________________________
 # LOCATIONS TO STORE THE DATA
-LOCATION_OUTPUT = "C:\\Users\\Administrator\\Desktop\\test\\"
-LOCATION_LOPUCKI = "C:\\Users\\Administrator\\Desktop\\UCLA-LoPucki Bankruptcy Research Database\\UCLA-LoPucki " \
-                   "Bankruptcy Research Database.csv "
-LOCATION_EDGAR = "C:\\Users\\Administrator\\Desktop\\EDGAR\\edgar-corpus"
+LOCATION_OUTPUT = ""
+LOCATION_LOPUCKI = ""
+LOCATION_EDGAR = ""
 # GENERAL
 begin_year = 2000
 end_year = 2020
