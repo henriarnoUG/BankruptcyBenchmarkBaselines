@@ -14,7 +14,7 @@ The code will be released stepwise (estimated to be complete by end of August).
 
 ### LOGIC
 
-In each folder there is a main script that can be used to specify the parameters (such as the location of the files, where to store the output, periods, ...) and perform a step described in the paper.Run the scripts in each folder in the following order:
+In each folder there are script that can be used to specify the parameters (such as the location of the files, where to store the output, periods, ...) and perform a step described in the paper. Run the scripts in each folder in the following order:
 
 
 - **Data_Source_Integration**: Link both data sources and stores the filings of healthy companies, companies that ultimatly went bankrupt and the dates on which they filed for bankruptcy. (THIS STEP MIGHT TAKE A WHILE)
