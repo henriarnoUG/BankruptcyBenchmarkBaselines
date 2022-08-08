@@ -10,3 +10,11 @@ The code will be released stepwise (estimated to be complete by end of August).
 ### Prerequisites
 - The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php)
 - EDGAR-CORPUS (https://arxiv.org/abs/2109.14394)
+
+
+### LOGIC
+
+In each folder there is a main script that can be used to specify the parameters (such as the location of the files, where to store the output, periods, ...) and perform a step described in the paper.
+
+Run the main scripts in each folder in the following order:
+- Data_Source_Integration: Link both data sources and stores the filings of healthy companies, companies that ultimatly went bankrupt and the dates on which they filed for bankruptcy.
