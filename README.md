@@ -14,7 +14,8 @@ The code will be released stepwise (estimated to be complete by end of August).
 
 ### LOGIC
 
-In each folder there is a main script that can be used to specify the parameters (such as the location of the files, where to store the output, periods, ...) and perform a step described in the paper.
+In each folder there is a main script that can be used to specify the parameters (such as the location of the files, where to store the output, periods, ...) and perform a step described in the paper.Run the scripts in each folder in the following order:
 
-Run the main scripts in each folder in the following order:
+
 - Data_Source_Integration: Link both data sources and stores the filings of healthy companies, companies that ultimatly went bankrupt and the dates on which they filed for bankruptcy.
+- BoW / Transformer (2 folders): Prepare the data for training the Bag-of-Words / Transformer models. This steps in these folders are split up in 1) preprocessing and 2) sampling (execute them in the order indicated by the name of the files).
