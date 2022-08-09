@@ -11,8 +11,8 @@ path = ''
 # SCRIPT
 # ______________________________________________________________________________________________________________________
 # read in data
-failed = pd.read_csv(path + 'failed_text_all.csv.csv', index_col=0, header=0).reset_index(drop=True)
-healthy = pd.read_csv(path + 'healthy_text_all.csv.csv', index_col=0).reset_index(drop=True)
+failed = pd.read_csv(path + 'failed_text_all.csv', index_col=0, header=0).reset_index(drop=True)
+healthy = pd.read_csv(path + 'healthy_text_all.csv', index_col=0).reset_index(drop=True)
 failure_years = pd.read_csv(path + 'failure_years.csv', index_col=0).reset_index(drop=True)
 
 # drop all nan row, drop decimals from cik
