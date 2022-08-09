@@ -23,7 +23,7 @@ def tokenize_lemmatize(text):
     # initialize lemmatizer
     lemmatizer = WordNetLemmatizer()
     # convert to lower
-    text = text.lower()
+    text = str(text).lower()
     # tokenize
     text = nltk.word_tokenize(text)
     # lemmatize
@@ -43,7 +43,7 @@ def tokenize(text):
     :return: list of tokens
     """
     # return list of tokens
-    return nltk.word_tokenize(text.lower())
+    return nltk.word_tokenize(str(text).lower())
 
 
 def remove_stop_punct(tokenized_text):
