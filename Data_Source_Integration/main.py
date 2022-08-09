@@ -9,7 +9,7 @@ LOCATION_OUTPUT = ""
 LOCATION_LOPUCKI = ""
 LOCATION_EDGAR = ""
 # GENERAL
-begin_year = 2000
+begin_year = 2014 #in the paper data from 2000 untill 2020 was used
 end_year = 2020
 
 # SCRIPT
