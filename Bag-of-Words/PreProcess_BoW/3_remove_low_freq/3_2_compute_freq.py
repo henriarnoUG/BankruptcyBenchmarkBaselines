@@ -29,7 +29,7 @@ for i, df in enumerate(data):
 
     # store the vocab of the current chunk in a list
     vocab = []
-    for text in df['item_7'].apply(lambda x: x.split(' ')):
+    for text in df['item_7'].apply(lambda x: str(x).split(' ')):
         vocab.extend(text)
 
     # compute frequencies and append to full frequencies
