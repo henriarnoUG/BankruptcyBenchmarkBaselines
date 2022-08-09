@@ -22,11 +22,11 @@ min_count = 1 # already replaced low-freq words
 # ______________________________________________________________________________________________________________________
 
 # specify location
-store_location = data_location + 'model_data\'
+store_location = data_location + 'model_data/'
 os.mkdir(store_location)
-store_location = store_location + 'W2V_data\'
+store_location = store_location + 'W2V_data/'
 os.mkdir(store_location)
-data_location = data_location + 'intermediate_processed\'
+data_location = data_location + 'intermediate_processed/'
 
 
 # read in training data in chunks of 1000 for memory efficiency
