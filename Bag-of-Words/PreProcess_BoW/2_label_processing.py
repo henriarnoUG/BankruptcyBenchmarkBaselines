@@ -78,5 +78,5 @@ failed['failure_date'] = failed['cik'].apply(
     lambda x: failure_years[failure_years['cik'] == x]['date_of_failure'].iloc[0])
 
 # reset the index and store
-failed.reset_index(drop=True).to_csv(data_location + 'failed_processed_complete.csv')
-healthy.reset_index(drop=True).to_csv(data_location + 'healthy_processed_complete.csv')
+failed.reset_index(drop=True).to_csv(data_location + 'intermediate_processed/failed_processed_complete.csv')
+healthy.reset_index(drop=True).to_csv(data_location + 'intermediate_processed/healthy_processed_complete.csv')
