@@ -8,12 +8,12 @@ The code will be released stepwise (estimated to be complete by end of August).
 ## USAGE
 
 ### Prerequisites
-- The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php)
-- EDGAR-CORPUS (https://arxiv.org/abs/2109.14394)
+- The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php): Contains information on which public companies filed for chapter 7 or chapter 11 of the US bankruptcy code.
+- EDGAR-CORPUS (https://arxiv.org/abs/2109.14394): A corpus of 10-k reports from all public companies in the US for over 25 years. The authors also provide a crawling tool to keep the corpus up-to-date. This can be accessed through the paper. In this repo we focus on the MD&A section (Management Discussion & Analysis).
 
 An environment.yml file is added to the repository which can be used to install the required dependencies. Note that the file does contain more dependencies than strictly needed to run the code. 
 
-### LOGIC
+### Workflow
 
 In each folder there are script that can be used to specify the parameters (such as the location of the files, where to store the output, time periods to use, ...) and perform the steps described in the paper. Run the scripts in each folder in the following order:
 
