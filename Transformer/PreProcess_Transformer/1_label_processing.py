@@ -77,6 +77,54 @@ failed = failed[cols]
 failed['failure_date'] = failed['cik'].apply(
     lambda x: failure_years[failure_years['cik'] == x]['date_of_failure'].iloc[0])
 
+
+# replace omitted
+def omit(text, n):
+    """
+    :param text: string to be processed
+    :param n: if text contains fewer characters than n (or if it is a default string),
+    it is replaced with 'omitted'
+    :return: input text or 'omitted'
+    """
+
+    # create list with default strings that imply omitting the MD&A
+    omitted = ['Item 7. Management’s Discussion and Analysis of Financial Condition and Results of '
+               'Operations.\nNot Applicable',
+               'ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS',
+               'Item 7. Management’s Discussion and Analysis of Financial Condition and Results of '
+               'Operation\nOmitted.',
+               'Item 7:\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations',
+               'Item 7. Management’s Discussion and Analysis of Financial Condition and Results of '
+               'Operations.\nOmitted pursuant to General Instruction J of Form 10-K.',
+               "ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF "
+               "OPERATIONS\nBecause of the limited business activity of the Company, the presentation of "
+               "Management's Discussion and Analysis of Financial Condition and Results of Operations, "
+               "as otherwise required by Item 303 of Regulation S-K, would not be meaningful. All relevant "
+               "information is contained in the Monthly Reports (filed under Current Reports on Form 8-K) as "
+               "described above.", "ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF "
+                                   "OPERATIONS\nNot Applicable"]
+
+    # replace text with omitted if it is default string or when it has fewer than n characters
+    if text in omitted:
+        return 'omitted'
+    if (len(str(text)) < n) & (text != 'missing'):
+        return 'omitted'
+    return text
+
+def omit_batch(dataset):
+    """
+    :param dataset: dataset to be processed in batch
+    :return: dataset without ommited samples as 'omitted'
+    """
+    # omit
+    dataset['item_7'] = dataset.apply(lambda x: omit(x['item_7'], 100), axis=1)
+    # return result
+    return dataset
+
+healthy = omit_batch(healthy)
+failed = omit_batch(failed)
+
+
 # reset the index and store
 failed.reset_index(drop=True).to_csv(path + 'intermediate_processed/failed_transformers.csv')
 healthy.reset_index(drop=True).to_csv(path + 'intermediate_processed/healthy_transformers.csv')
