@@ -73,4 +73,4 @@ for file in os.listdir(data_location + 'intermediate_processed/chunks/'):
 healthy = pd.concat(data)
 healthy = healthy.reset_index(drop = True)
 # store
-healthy.to_csv(data_location + "healthy_processed.csv")
+healthy.to_csv(data_location + "intermediate_processed/healthy_processed.csv")
