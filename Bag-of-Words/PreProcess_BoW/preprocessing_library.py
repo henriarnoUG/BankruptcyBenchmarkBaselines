@@ -43,7 +43,7 @@ def tokenize(text):
     :return: list of tokens
     """
     # return list of tokens
-    return nltk.word_tokenize(text.lower)
+    return nltk.word_tokenize(text.lower())
 
 
 def remove_stop_punct(tokenized_text):
