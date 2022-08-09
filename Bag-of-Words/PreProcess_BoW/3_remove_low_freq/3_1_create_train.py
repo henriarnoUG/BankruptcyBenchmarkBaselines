@@ -19,7 +19,6 @@ print('READING IN THE DATA')
 # read data
 healthy = pd.read_csv(data_location + 'intermediate_processed/healthy_processed_complete.csv', index_col=0)
 failed = pd.read_csv(data_location + 'intermediate_processed/failed_processed_complete.csv', index_col=0)
-failure_years = pd.read_csv(data_location + 'failure_years.csv', index_col=0)
 # create and store train data used to compute frequencies
-train = get_train_corpus(healthy, failed, failure_years)
+train = get_train_corpus(healthy, failed, last_data_year_train)
 train.to_csv(data_location + 'intermediate_processed/frequencies/train.csv')
