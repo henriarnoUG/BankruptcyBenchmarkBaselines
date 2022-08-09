@@ -11,6 +11,7 @@ The code will be released stepwise (estimated to be complete by end of August).
 - The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php)
 - EDGAR-CORPUS (https://arxiv.org/abs/2109.14394)
 
+An environment.yml file is added to the repository which can be used to install the required dependencies. Note that the file does contain more dependencies than strictly needed to run the code. 
 
 ### LOGIC
 
