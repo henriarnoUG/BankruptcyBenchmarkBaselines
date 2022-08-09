@@ -12,6 +12,7 @@ LOCATION_EDGAR = ""
 begin_year = 2014 #in the paper data from 2000 untill 2020 was used
 end_year = 2020
 # deal with a subsample of the data (to speed things up and try out the code)
+# this does ofcourse lead to a lot of missing values after sampling!
 sample = True
 
 # SCRIPT
