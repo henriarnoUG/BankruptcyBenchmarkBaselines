@@ -15,7 +15,7 @@ An environment.yml file is added to the repository which can be used to install 
 
 ### Workflow
 
-In each folder there are script that can be used to specify the parameters (such as the location of the files, where to store the output, time periods to use, ...) and perform the steps described in the paper. Run the scripts in each folder in the following order:
+In each folder there are script that can be used to perform the steps described in the paper and specify the parameters (such as the location of the files, hyperparameters, time periods to use, ...). Run the scripts in each folder in the following order:
 
 
 - **Data_Source_Integration**: Link both data sources and stores the filings of healthy companies, companies that ultimatly went bankrupt and the dates on which they filed for bankruptcy. (THIS STEP MIGHT TAKE A WHILE)
