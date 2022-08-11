@@ -79,13 +79,13 @@ def encode_batch(iterator, tknzr, transformer, data_location, name, device):
         if i % 50 == 0:
             print('--- [storing intermediate output] ---')
             # store
-            np.save(path_store + 'tensors_longformer_' + name + '.npy', tensors, allow_pickle=True)
+            np.save(path_store + 'tensors_' + name + '.npy', tensors, allow_pickle=True)
             np.save(path_store + 'doc_ids_' + name + '.npy', doc_ids, allow_pickle=True)
 
     # store final result
     print('--- [storing intermediate output] ---')
     # store
-    np.save(path_store + 'tensors_longformer_' + name + '.npy', tensors, allow_pickle=True)
+    np.save(path_store + 'tensors_' + name + '.npy', tensors, allow_pickle=True)
     np.save(path_store + 'doc_ids_' + name + '.npy', doc_ids, allow_pickle=True)
 
     # print duration
