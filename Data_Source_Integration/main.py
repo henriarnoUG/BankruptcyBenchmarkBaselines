@@ -23,7 +23,7 @@ failed, healthy = integrator.integrate(begin_year=begin_year, end_year=end_year)
 print('STORING HEALTHY DF')
 if sample:
    companies = random.sample(list(healthy['cik'].unique()), 5000)
-   healthy = healthy[healthy['cik'].isin(companies)].reset_index()
+   healthy = healthy[healthy['cik'].isin(companies)].reset_index(drop=True)
 healthy.to_csv(LOCATION_OUTPUT + 'healthy_text_all.csv')
 print('STORING FAILED DF')
 failed.to_csv(LOCATION_OUTPUT + 'failed_text_all.csv')
