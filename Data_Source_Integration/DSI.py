@@ -2,6 +2,7 @@
 import pandas as pd
 from os import listdir
 from datetime import datetime
+import random
 
 
 class DSI:
