@@ -138,9 +138,9 @@ def encode_word2vec(iterator, name, data_location, w2v):
         if i % 50 == 0:
             print('--- [storing intermediate output] ---')
             # store
-            np.save(path_store + 'tensors_w2v_' + name + '.npy', tensors, allow_pickle=True)
+            np.save(path_store + 'tensors_' + name + '.npy', tensors, allow_pickle=True)
             np.save(path_store + 'doc_ids_' + name + '.npy', doc_ids, allow_pickle=True)
 
     # store final output
-    np.save(path_store + 'tensors_w2v_' + name + '.npy', tensors, allow_pickle=True)
+    np.save(path_store + 'tensors_' + name + '.npy', tensors, allow_pickle=True)
     np.save(path_store + 'doc_ids_' + name + '.npy', doc_ids, allow_pickle=True)
