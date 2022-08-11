@@ -3,7 +3,7 @@ This repository contains the code that can be used to reconstruct the benchmark 
 
 (Temporary) link to the paper: https://mx.nthu.edu.tw/~chungchichen/FinNLP2022_IJCAI/6.pdf
 
-**Citation**: Arno, H., Mulier, K., Baeck, J., Demeester, T.: Next-year bankruptcy prediction from textual data: Benchmark and baselines. Proceedings of the Fourth Workshop on Financial Technology and Natural Language Processing FinNLP@IJCAI2022, pp. 36–42, (2022)
+**Citation**: Arno, H., Mulier, K., Baeck, J., Demeester, T.: Next-Year Bankruptcy Prediction from Textual Data: Benchmark and Baselines. Proceedings of the Fourth Workshop on Financial Technology and Natural Language Processing FinNLP@IJCAI2022, pp. 36–42, (2022)
 
 ## USAGE
 
