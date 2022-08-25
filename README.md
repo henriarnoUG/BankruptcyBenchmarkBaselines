@@ -1,7 +1,7 @@
 # BankruptcyBenchmarkBaselines
 This repository contains the code that can be used to reconstruct the benchmark &amp; baselines for bankruptcy prediction using textual data. The corresponding paper was presented at the FinNLP workshop @ IJCAI-ECAI 2022 and published in the ACL Anthology.
 
-(Temporary) link to the paper: https://arxiv.org/abs/2208.11334
+Link to the paper: https://arxiv.org/abs/2208.11334
 
 **Citation**: Arno, H., Mulier, K., Baeck, J., Demeester, T.: Next-Year Bankruptcy Prediction from Textual Data: Benchmark and Baselines. Proceedings of the Fourth Workshop on Financial Technology and Natural Language Processing FinNLP@IJCAI2022, pp. 36–42, (2022)
 
