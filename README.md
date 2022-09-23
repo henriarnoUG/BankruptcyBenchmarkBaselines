@@ -7,6 +7,8 @@ Link to the paper: https://arxiv.org/abs/2208.11334
 
 ## USAGE
 
+**NOTE: The code will gradually be adapted/enhanced in order to improve the ease-of-use**
+
 ### Prerequisites
 - The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php): Contains information on bankruptcy filings under chapter 7 or chapter 11 of the US bankruptcy code for public companies in the US. The dataset has to be purchased and is updated monthly.
 - EDGAR-CORPUS (https://arxiv.org/abs/2109.14394): A corpus of 10-k reports from all public companies in the US for over 25 years. The authors also provide a crawling tool to keep the corpus up-to-date. This can be accessed through the paper. In this repo we focus on the MD&A section (Management Discussion & Analysis).
