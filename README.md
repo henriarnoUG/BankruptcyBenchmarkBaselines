@@ -11,7 +11,7 @@ Link to the paper: https://arxiv.org/abs/2208.11334
 ## USAGE
 
 ### Prerequisites
-- The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php): Contains information on bankruptcy filings under chapter 7 or chapter 11 of the US bankruptcy code for public companies in the US. The dataset is no longer updated but is free of charge.
+- The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php): Contains information on bankruptcy filings under chapter 7 or chapter 11 of the US bankruptcy code for public companies in the US. The dataset is no longer updated  as of 2023 but is free of charge.
 - EDGAR-CORPUS (https://arxiv.org/abs/2109.14394): A corpus of 10-k reports from all public companies in the US for over 25 years. The authors also provide a crawling tool to keep the corpus up-to-date. This can be accessed through the paper. In this repo we focus on the MD&A section (Management Discussion & Analysis).
 
 An environment.yml file is added to the repository which can be used to install the required dependencies. Note that the file does contain more dependencies than strictly needed to run the code. 
