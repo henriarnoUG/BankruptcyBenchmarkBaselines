@@ -1,6 +1,6 @@
 # BankruptcyBenchmarkBaselines
 
-**NOTE: The code will gradually be enhanced in order to improve the ease-of-use from 3/23 onwards.**
+**NOTE: The code will gradually be enhanced in order to improve the ease-of-use from 6/23 onwards.**
 
 This repository contains the code that can be used to reconstruct the benchmark &amp; baselines for bankruptcy prediction using textual data. The corresponding paper was presented at the FinNLP workshop @ IJCAI-ECAI 2022 and published in the ACL Anthology.
 
