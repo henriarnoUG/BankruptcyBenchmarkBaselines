@@ -1,6 +1,6 @@
 # BankruptcyBenchmarkBaselines
 
-### (UPDATE) A new, easy to use, version of this repository (with data access) is available at:
+### UPDATE: A new, easy to use, version of this repository (with data access) is available at:
 ```github.com/henriarnoUG/ECL```
 
 
