@@ -1,14 +1,16 @@
 # BankruptcyBenchmarkBaselines
 
-**NOTE: A new, easy to use version of this repository with access to the data will be released soon (expected November 2023)**
+### (UPDATE) A new, easy to use, version of this repository (with data access) is available at:
+```github.com/henriarnoUG/ECL```
+
+
+## DEPRECATED:
 
 This repository contains the code that can be used to reconstruct the benchmark &amp; baselines for bankruptcy prediction using textual data. The corresponding paper was presented at the FinNLP workshop @ IJCAI-ECAI 2022 and published in the ACL Anthology.
 
-Link to the paper: https://arxiv.org/abs/2208.11334
+Link to the paper: https://aclanthology.org/2022.finnlp-1.25/
 
 **Citation**: Arno, H., Mulier, K., Baeck, J., Demeester, T.: Next-Year Bankruptcy Prediction from Textual Data: Benchmark and Baselines. Proceedings of the Fourth Workshop on Financial Technology and Natural Language Processing FinNLP@IJCAI2022, pp. 36–42, (2022)
-
-## USAGE
 
 ### Prerequisites
 - The LoPucki BRD case table (https://lopucki.law.ufl.edu/index.php): Contains information on bankruptcy filings under chapter 7 or chapter 11 of the US bankruptcy code for public companies in the US. The dataset is no longer updated  as of 2023 but is free of charge.
