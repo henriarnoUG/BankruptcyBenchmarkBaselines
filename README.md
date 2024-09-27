@@ -1,2 +1,2 @@
 # BankruptcyBenchmarkBaselines
-_Deprecated:_ see henriarnoUG/ECL
+Deprecated see: ```github.com/henriarnoUG/ECL```
