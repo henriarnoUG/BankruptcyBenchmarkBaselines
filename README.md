@@ -1,2 +1,1 @@
-# BankruptcyBenchmarkBaselines
-Deprecated see: ```github.com/henriarnoUG/ECL```
+Outdated - new version [here](https://github.com/henriarnoUG/ECL)
