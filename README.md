@@ -1,1 +1,1 @@
-Outdated - new version [here](https://github.com/henriarnoUG/ECL)
+outdated - new version [here](https://github.com/henriarnoUG/ECL)
